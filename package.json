@@ -1,0 +1,21 @@
+{
+  "name": "ambhos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "next": "10.2.3",
+    "next-images": "^1.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-elastic-carousel": "^0.11.5",
+    "styled-components": "^5.3.0",
+    "use-hide-scrollbar": "^1.0.19"
+  }
+}

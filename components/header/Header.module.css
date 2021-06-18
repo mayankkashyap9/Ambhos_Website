@@ -1,0 +1,133 @@
+.Header_section{
+    font-family: Montserrat Alternates;
+    color: #404040;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom: 0.2px solid lightgray;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: #ffff;
+    box-shadow: 0px 2px 0px rgba(122, 122, 122, 0.342);
+}
+
+.Header_left
+{
+    padding: 5px;
+}
+
+.Header_right
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header_right_heading{
+   margin: 0px 20px;
+}
+
+.Header_right_heading_dropdown
+{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.Header_right_heading_dropdown_mobile
+{
+    display: none;
+    visibility: collapse;
+}
+
+.button_design
+{
+   color: white !important;
+   background-color:#F5530B !important;
+   outline: none !important;
+   border: none !important;
+   margin: 0px 20px !important;
+}
+
+.searchButton
+{
+    color: #404040;
+    height: 20px;
+    width:auto !important;
+    margin: 0px 20px !important;
+}
+
+.Header_dropdown_services, .Header_dropdown_more
+{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Header_dropdown_services a, .Header_dropdown_more a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 0.1px solid lightgray;
+  }
+  
+  .Header_dropdown_services a:hover, .Header_dropdown_more a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .Header_dropdown_services, .dropdown:hover .Header_dropdown_more {
+    display: block;
+  }
+
+
+
+@media(max-width: 850px)
+{
+    /* for the tablet screen */
+    .Header_left
+    {
+        visibility: collapse;
+        display:none;
+    }
+    .Header_section
+    {
+        justify-content:center;
+    }
+}
+
+@media(max-width: 650px)
+{
+    .Header_right_heading_dropdown
+    {
+        display:none;
+        visibility:collapse;
+    }
+}
+
+@media(max-width:550px)
+{
+    
+    .Header_right_heading
+    {
+        visibility: collapse;
+        display:none;
+    }
+
+    .Header_right_heading_dropdown_mobile
+    {
+        display: flex;
+        visibility:visible;
+        align-items:center;
+        justify-content:center;
+        margin: 0px 20px;
+    }
+}

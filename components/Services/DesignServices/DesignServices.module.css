@@ -1,0 +1,31 @@
+.heading
+{
+    color: #5B5B5B;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.image
+{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.main
+{
+  display: inline-block;
+  width: fit-content;
+  margin: 0px 10px;
+  padding-left: 20px;
+}
+
+.inl{
+    display: block;
+    text-align: center;
+    margin: 0px 20px;
+}

@@ -1,0 +1,48 @@
+.subscription{
+    width: fit-content;
+    padding: 20px 40px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    top: -100px;
+}
+
+.main{
+    width:100%;
+    background-color:#fff;
+    text-align: center;
+}
+
+.heading{
+    color:#F5530B;
+}
+.para{
+    font-family: Calibri !important;
+    font-weight: 400;
+    color: #6F6F6F;
+}
+
+.paraTwo{
+    position: relative;
+    top: -100px;
+    font-family: Calibri !important;
+    font-weight: 400;
+    color: #6F6F6F;
+}
+
+.button{
+    background-color:#F5530B !important;
+    color: white !important;
+    width:100% !important;
+}
+
+@media(max-width : 450px)
+{
+    .subscription{
+        width: 80%;
+    }
+}
