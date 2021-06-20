@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+
+
+
+.card_style{
+  padding: 30px;
+
+}
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+
+
+
+.card_style{
+  padding: 30px;
+
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+.card_img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 277px;
+}
+
+
+
+.main_card{
+
+  margin: 110px auto;
+  width: 500px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.main_card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card_title{
+  font-weight: 600;
+}
+.main_card hr {
+display: block;
+margin: 10px auto;
+  width: 50%;
+}
+.card_title{
+  font-size: 1.5rem;
+font-stretch: expanded;
+font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.spec{
+  opacity: 50%;
+}
+.continuing{
+  color:#F5530B;
+font-weight: bold;
+}
+.stars{
+  margin-left: 130px;
+}
+.provided{
+  opacity: 50%;
+  margin-left: 200px;
+}
+.name{
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-left: 136px;
+}
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+}
+@media (max-width:700px){
+  .main_card{
+ width: 390px;
+
+margin: 150px 20px;
+
+  }
+  .provided{
+    margin-left: 87px;
+  }
+
+  .name{
+font-size: 1rem;
+    padding-left: 5px;
+  }
+
+}

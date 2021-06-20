@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap);
+.subscription{
+  color:#F5530B;
+  font-family: 'Roboto', sans-serif;
+
+font-size: 1rem;
+align: Left;
+vertical-align: Top;
+letter-spacing: 2px;
+}
+.yourevents{
+  color:#484848;
+
+font-family: Montserrat Alternates;
+font-style: Bold;
+font-size: 2rem;
+line-height: 62px;
+line-height: 163%;
+align: Left;
+vertical-align: Top;
+}
+.eventMain{
+padding: 50px;
+
+}
+
+.event_link_out{
+
+  margin-left: 20px;
+  display: inline-block;
+}
+.event_link{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:#464646;
+  font-weight: lighter;
+
+
+}
+.event_link::after{
+  content:'';
+  display: block;
+  width: 0;
+  height: 5px;
+
+  background: #F5530B;
+  transition: width .3s;
+}
+.event_link:hover::after{
+
+  width: 100%;
+  transition: width .3s;
+
+}
+.event_ongoing{
+
+  margin: 150px;
+}
